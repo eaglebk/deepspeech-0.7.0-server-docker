@@ -16,5 +16,6 @@ curl -X POST --data-binary @test_o.wav http://localhost:4243/transcribe
 ```
 where u9U6mXL3t_c - id video
 
-Thanks for [![JoachimVeulemans repo](https://github.com/JoachimVeulemans/deepspeech-server-docker)]k
+Thank you very much [JoachimVeulemans](https://github.com/JoachimVeulemans/deepspeech-server-docker)
+
 
