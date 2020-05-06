@@ -23,8 +23,8 @@ parser.add_argument(
     "-port",
     type=int,
     nargs="?",
-    help="port of the server, default is 4242",
-    default=4242,
+    help="port of the server, default is 4243",
+    default=4243,
 )
 
 parser.add_argument(
@@ -137,13 +137,9 @@ def runDeepspeech(audiofile):
         [
             "deepspeech",
             "--model",
-            "models/output_graph.pbmm",
-            "--lm",
-            "models/lm.binary",
-            "--trie",
-            "models/trie",
-            "--alphabet",
-            "models/alphabet.txt",
+            "deepspeech-0.7.0-models.pbmm",
+            "--scorer",
+            "deepspeech-0.7.0-models.scorer",
             "--audio",
             audiofile,
         ],

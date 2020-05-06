@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -it -p 4242:4242 deepspeech-server-docker:latest bash
+docker run -d -it -p 4243:4243 deepspeech-server-docker-0.7.0:latest bash

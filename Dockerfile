@@ -25,11 +25,8 @@ COPY requirements.txt requirements.txt
 
 RUN pip3 install -r requirements.txt
 
-RUN curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.6.1/deepspeech-0.6.1-models.tar.gz
-
-RUN mkdir models
-
-RUN tar xvf deepspeech-0.6.1-models.tar.gz -C models --strip-components=1
+RUN curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.7.0/deepspeech-0.7.0-models.pbmm
+RUN curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.7.0/deepspeech-0.7.0-models.scorer
 
 COPY . .
 
