@@ -1,2 +1,2 @@
 klein===19.6.0
-deepspeech===0.7.0
+deepspeech===0.7.1

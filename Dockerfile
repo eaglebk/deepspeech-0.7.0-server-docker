@@ -25,6 +25,7 @@ COPY requirements.txt requirements.txt
 
 RUN pip3 install -r requirements.txt
 
+# model has not changed since the last version
 RUN curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.7.0/deepspeech-0.7.0-models.pbmm
 RUN curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.7.0/deepspeech-0.7.0-models.scorer
 

@@ -1,7 +1,7 @@
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/eagle2000/deepspeech-0.7.0-server-docker)](https://hub.docker.com/r/eagle2000/deepspeech-0.7.0-server-docker/builds)
 [![Docker Automated Status](https://img.shields.io/docker/cloud/automated/eagle2000/deepspeech-0.7.0-server-docker)](https://hub.docker.com/r/eagle2000/deepspeech-0.7.0-server-docker)
 
-# DeepSpeech Server v.0.7.0
+# DeepSpeech Server v.0.7.1
 
 How to use it 
 
